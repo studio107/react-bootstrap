@@ -1,0 +1,9 @@
+$footerHeight: 80px;
+
+@include sticky-footer(80px, "#wrapper", "#push", "#footer");
+
+#footer {
+  .footer-inner {
+    border-top: 1px solid #ccc;
+  }
+}
